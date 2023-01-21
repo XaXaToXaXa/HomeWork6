@@ -19,5 +19,5 @@ else
 {
     double x = (b2 - b1) / (k1 - k2);
     double y = k2 * x + b2;
-    Console.WriteLine($"{x} & {y}");
+    Console.WriteLine($"Прямые пересекутся в точке [{x:F2} : {y:F2}]");
 }
